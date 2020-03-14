@@ -75,7 +75,7 @@ const CubeSealedOptions = () => (
 
 const CubeOptions = () => (
   <div>
-    <Select link="cards" opts={_.seq(15, 8)} />
+    <Select link="cards" opts={_.seq(30, 8)} />
     {" "}cards
     <Select link="packs" opts={_.seq(12, 3)} />
     {" "}packs
