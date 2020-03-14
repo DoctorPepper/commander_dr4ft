@@ -29,11 +29,11 @@ let games = {};
 
 (function gameTimer() {
   var now = Date.now();
-  for (var id in games)
-    if (games[id].expires < now)
-      games[id].kill("game over");
+  // for (var id in games)
+   //if (games[id].expires < now)
+      //games[id].kill("game over");
 
-  setTimeout(gameTimer, MINUTE);
+  //setTimeout(gameTimer, MINUTE);
 })();
 
 module.exports = class Game extends Room {
