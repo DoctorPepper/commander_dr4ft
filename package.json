@@ -65,7 +65,7 @@
     "filepond-plugin-file-validate-size": "^2.2.0",
     "filepond-plugin-file-validate-type": "^1.2.4",
     "helmet": "^3.21.2",
-    "html-webpack-plugin": "3.2.0",
+    "html-webpack-plugin": "5.5.0",
     "jsonfile": "^5.0.0",
     "node-schedule": "^1.3.2",
     "prop-types": "^15.7.2",
